@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body class="recipe-page">
+    <header>
+        <div class="container">
+            <h1>Recipe Book</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+    <main>
+        <section class="search-section">
+            <div class="container">
+                <p class="intro-text">Craft a Delightful Recipe To Show Your Loved One How Special They Are &#129505;</p>
+                <div class="search-container">
+                    <input type="text" placeholder="Search for Recipes..." class="searchbox"/>
+                    <button type="submit" class="searchBtn">Search</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="recipe-section">
+            <div class="container">
+                <div class="recipe-container">
+                    <!-- Recipes will be dynamically added here -->
+                </div>
+                <div class="recipe-details">
+                    <button type="button" class="back-btn">
+                        Back
+                    </button>
+                    <div class="recipe-details-content"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
